@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+/*
+-----------------
+Normalizing
+-----------------
+*/
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+}
+
+
+
+.color-5 {
+    width: 100%;
+  /* background: #353535; */
+}
+
+.menu a {
+  width: 40%;
+  margin: 0 auto;
+    color: #353535;
+    font-family: Lato;
+    font-size: 17pt;
+    font-weight: 400;
+    padding: 15px 25px;
+    /**/
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .SMN_effect-25 a {
+    letter-spacing: 0;
+    transition: 0.35s;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .SMN_effect-25 a:hover, .SMN_effect-25 a:active {
+    letter-spacing: 5px;
+    transition: 0.35s;
+  }
+  
+  .SMN_effect-25 a:after {
+    bottom: -10px;
+  }
+  
+  .SMN_effect-25 a:before {
+    top: -10px;
+  }
+  
+  .SMN_effect-25 a:after, .SMN_effect-25 a:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  
+  .SMN_effect-25 a:hover:after, .SMN_effect-25 a:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 60%;
+  }
+  
+  .SMN_effect-25 a:hover:before {
+    width: 60%;
+  }
