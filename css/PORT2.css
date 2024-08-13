@@ -178,7 +178,6 @@ header div nav a::after {
     margin-top: 150px;
 
     animation: scroll 1s linear alternate infinite;
-    ;
 }
 
 @keyframes scroll {
@@ -511,6 +510,25 @@ header div nav a::after {
     border-right: 1px dashed black;
 }
 
+#s4 #design .banner .cl{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 30px;
+    z-index: 99;
+
+    animation: cl 1s linear alternate infinite;
+}
+@keyframes cl {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 #s4 #design .detail {
     border-right: 1px dashed black;
 }
@@ -520,7 +538,7 @@ header div nav a::after {
     top: 100px;
 }
 
-#s4 #design a {
+#s4 #design .more {
     position: relative;
     top: 150px;
     margin: 0 auto;
@@ -536,7 +554,7 @@ header div nav a::after {
     transition: all 0.3s;
 }
 
-#s4 #design a:hover {
+#s4 #design .more:hover {
     background-color: #FFD523;
     color: #000;
     border: 1px solid #000;
@@ -556,7 +574,7 @@ header div nav a::after {
 
 }
 
-#s4 #design .detail a {
+#s4 #design .detail .more {
     position: relative;
     top: 80px;
     margin: 0 auto;
@@ -610,7 +628,7 @@ footer a {
     color: #fff;
 }
 
-aside {
+/* aside {
     width: 150px;
     margin-left: 50%;
     margin-top: 100px;
@@ -668,7 +686,7 @@ aside nav ul li a:hover {
     color: white;
     cursor: pointer;
     z-index: 999;
-}
+} */
 
 /* div.up_btn.on{
     opacity: 1;
