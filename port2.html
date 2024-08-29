@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>port2</title>
     <link rel="stylesheet" href="css/PORT2.css">
-    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <!-- XEIcon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
     <script src="lib/jquery-3.1.1.min.js"></script>
@@ -56,7 +57,7 @@
             });
         });
     </script>
-    
+
 </head>
 
 
@@ -127,7 +128,7 @@
         </section>
         <section id="project">
             <div class="sub_title">
-                <h1>WEB PROJECT</h1>
+                <h2>WEB PROJECT</h2>
             </div>
             <!-- <div class="tab_title">
                 <a href="#">비레디</a>
@@ -143,7 +144,8 @@
                     <label for="tab-1">B.READY</label>
                     <label for="tab-2">TROPICANA</label>
                     <label for="tab-3">COMPOSE</label>
-                    <label for="tab-4"><a href="http://chlwns01.dothome.co.kr/" target="_blank">+MORE(디자인 추가 중..)</a></label>
+                    <label for="tab-4"><a href="http://chlwns01.dothome.co.kr/" target="_blank">+MORE(디자인 추가
+                            중..)</a></label>
                 </div>
                 <div class="content">
                     <div class="content-dis">
@@ -167,8 +169,10 @@
                                     </dl>
                                     <div class="site">
                                         <a href="img/비레디 웹디자인 제안서.pdf" download="">기획서</a>
-                                        <a href="https://www.figma.com/design/ewsB5xKDGlz66JdY3PMvEW/B.READY_Renewal?node-id=0-1&t=B3QoHDBBZVBl0ffF-1" target="_blank">Wireframe(Prototype)</a>
-                                        <a href="https://chlwns0.github.io/portfolio2/index.html" target="_blank">완성페이지</a>
+                                        <a href="https://www.figma.com/design/ewsB5xKDGlz66JdY3PMvEW/B.READY_Renewal?node-id=0-1&t=B3QoHDBBZVBl0ffF-1"
+                                            target="_blank">Wireframe(Prototype)</a>
+                                        <a href="https://chlwns0.github.io/portfolio2/index.html"
+                                            target="_blank">완성페이지</a>
                                     </div>
                                 </div>
                             </div>
@@ -189,12 +193,13 @@
                                         <dt>참여도</dt>
                                         <dd>개인 80%</dd>
                                         <dt>제작 페이지</dt>
-                                        <dd>MAIN (PC, TABLET, MOBILE)</dd>
+                                        <dd>MAIN <br> PC(1200px~),<br> TABLET(768px~1199px),<br> MOBILE(767px)</dd>
                                         <dt>사용툴</dt>
                                         <dd>Photoshop, HTML, CSS, Javascript</dd>
                                     </dl>
                                     <div class="site">
-                                        <a href="https:/chlwns0.github.io/portfolio3/Tropicana.html" target="_blank">완성페이지</a>
+                                        <a href="https:/chlwns0.github.io/portfolio3/Tropicana.html"
+                                            target="_blank">완성페이지</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,8 +225,10 @@
                                         <dd>Photoshop, Figma, HTML, CSS, Javascript</dd>
                                     </dl>
                                     <div class="site">
-                                        <a href="https://www.figma.com/design/6ETTZ09egznzAO9Ppgb1iL/COMPOSE-MOBILE?node-id=0-1&t=B3QoHDBBZVBl0ffF-1" target="_blank">Wireframe(Prototype)</a>
-                                        <a href="" onclick="window.open('http://chlwns0.github.io/mobile/COMPOSE_MB.html', '_blank', 'width=250, height=640')">완성페이지</a>
+                                        <a href="https://www.figma.com/design/6ETTZ09egznzAO9Ppgb1iL/COMPOSE-MOBILE?node-id=0-1&t=B3QoHDBBZVBl0ffF-1"
+                                            target="_blank">Wireframe(Prototype)</a>
+                                        <a href=""
+                                            onclick="window.open('http://chlwns0.github.io/mobile/COMPOSE_MB.html', '_blank', 'width=250, height=640')">완성페이지</a>
                                     </div>
                                 </div>
                             </div>
@@ -234,36 +241,55 @@
                     </div>
         </section>
         <section id="s4">
-            <h2>DESIGN</h2>
-            <div id="design">
-                <div class="banner">
-                    <img src="image/click.png" class="cl" alt="">
-                    <h2>BANNER</h2>
-                    <a href="image/banner1.png" onclick="window.open(this.href,'_blank', width='1600', height='450'); return false;"><img src="image/banner1.png" alt="" style="width: 550px;"></a>
-                    <a href="image/banner2.png" onclick="window.open(this.href,'_blank', width='1600', height='450'); return false;"><img src="image/banner2.png" alt="" style="width: 550px; margin-top: 30px;"></a>
-                    <a href="" class="more">+MORE</a>
-                    <p>(디자인 추가 중 입니다! 조금만 기다려 주세요)</p>
+            <h1>DESIGN</h2>
+                <div class="container">
+                    <div class="contents banner">
+                        <div class="title">
+                            <h2>01. Banner</h2>
+                        </div>
+                        <div class="image">
+                            <button id="btn-modal1" class="banner"><img src="image/banner1.png" alt="Banner 1"></button>
+                            <button id="btn-modal2" class="banner"><img src="image/banner2.png" alt="Banner 2"></button>
+                            <button id="btn-modal3" class="banner"><img src="image/티숨찐.jpg" alt="Banner 3"></button>
+                            <button id="btn-modal4" class="banner"><img src="image/빙그레배너_리뉴얼 (1) (1).jpg"
+                                    alt=""></button>
+                            <button id="btn-modal5" class="banner"><img src="image/커피배너2 (2).jpg" alt=""></button>
+                        </div>
+                    </div>
+                    <div id="modal" class="modal-overlay">
+                        <div class="modal-window">
+                            <img id="dogs" src="image/banner1.png" alt="Modal Image">
+                            <div class="close-area"><img id="rotateImage" src="image/xicon2.png" alt="Close"></div>
+                        </div>
+                    </div>
+                    <div class="contents detail">
+                        <div class="title">
+                            <h2>02. Detail</h2>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="image/티몬(나이키)상세페이지 copy.png" alt=""></a>
+                            <a href="#"><img src="image/티몬(나이키)상세페이지_리뷰 copy.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="contents main">
+                        <div class="title">
+                            <h2>03. Main</h2>
+                        </div>
+                        <div class="image">
+                            <a href="#"><img src="image/배드파마스.png" alt=""></a>
+                            <a href="#"><img src="image/인디고.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="detail">
-                    <h2>DETAIL</h2>
-                    <h1 class="de">
-                        <a href="image/티몬(나이키)상세페이지 copy.png" onclick="window.open(this.href,'_blank', width='780', height='2250'); return false;"><img src="image/티몬(나이키)상세페이지 copy.png" alt="" style="width: 350px; "></a>
-                    </h1>
-                    <a href="" class="more">+MORE</a>
-                    <p>(디자인 추가 중 입니다! 조금만 기다려 주세요)</p>
-                </div>
-                <div>
-                    <h2>MAIN</h2>
-                    <h1 class="de">
-                        <a href="image/배드파마스.png" onclick="window.open(this.href,'_blank', width='5120', height='4356'); return false;"><img src="image/배드파마스.png" alt="" style="width: 350px; "></a>
-                    </h1>
-                    <a href="" class="more">+MORE</a>
-                    <p>(디자인 추가 중 입니다! 조금만 기다려 주세요)</p>
-                </div>
-            </div>
         </section>
     </div>
+
     <footer>
+        <div class="contect">
+            <span></span>
+            <h2>CONTECT</h2>
+            <span></span>
+        </div>
         <p>Tel. 010-5232-5467</p>
         <p>↓ Another portfolio ↓</p>
         <div class="link">
@@ -273,20 +299,7 @@
         <p>본 사이트는 상업적 용도가 아닌 개인 포트폴리오 용으로 제작되었습니다.</p>
         <p>copyright &copy; 2024 choi joon young All right reserved</p>
     </footer>
-    <!-- <aside>
-        <nav>
-            <ul class="scr_nav">
-                <li><a href="#head">HOME</a></li>
-                <li><a href="#s2">PROFILE</a></li>
-                <li><a href="#project">WEB PROJECT</a></li>
-                <li><a href="#s4">DESIGN</a></li>
-            </ul>
-        </nav>
-    </aside> -->
-    <!-- <div class="up_btn"><a href="#">Top ▲</a></div> -->
 
-    <!--모달영역-->
-    <!--모달영역-->
 
 
 
@@ -296,6 +309,64 @@
     <script src="lib/jquery.transit.min.js"></script>
     <script src="lib/jquery.easeScroll.js"></script>
     <script src="lib/jquery.easing.1.3.js"></script>
+    <script>
+        const modal = document.getElementById("modal");
+
+        function modalOn() {
+            modal.style.display = "flex";
+            document.body.style.overflow = "hidden"; // Disable scrolling
+        }
+
+        function modalOff() {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto"; // Re-enable scrolling
+        }
+
+        const btnModal1 = document.getElementById("btn-modal1");
+        const btnModal2 = document.getElementById("btn-modal2");
+        const btnModal3 = document.getElementById("btn-modal3");
+        const btnModal4 = document.getElementById("btn-modal4");
+        const btnModal5 = document.getElementById("btn-modal5");
+        const dogsImage = document.getElementById("dogs");
+
+        btnModal1.addEventListener("click", () => {
+            dogsImage.src = "image/banner1.png";
+            modalOn();
+        });
+
+        btnModal2.addEventListener("click", () => {
+            dogsImage.src = "image/banner2.png";
+            modalOn();
+        });
+
+        btnModal3.addEventListener("click", () => {
+            dogsImage.src = "image/티숨찐.jpg";
+            modalOn();
+        });
+
+        btnModal4.addEventListener("click", () => {
+            dogsImage.src = "image/빙그레배너_리뉴얼 (1) (1).jpg";
+            modalOn();
+        });
+
+        btnModal5.addEventListener("click", () => {
+            dogsImage.src = "image/커피배너2 (2).jpg";
+            modalOn();
+        });
+
+
+
+        const closeBtn = modal.querySelector(".close-area");
+        closeBtn.addEventListener("click", () => {
+            modalOff();
+        });
+
+        const rotateImage = document.getElementById("rotateImage");
+        rotateImage.addEventListener("mouseover", function () {
+            rotateImage.classList.toggle("rotated");
+        });
+
+    </script>
 </body>
 
 </html>
